@@ -57,12 +57,14 @@ console.log(i++) // console logs 1, then increases i to 2
 console.log(i) // log 2
 
 var x = 1;
-console.log(++x)
+console.log(++x) //increases x to 2, then logs 2
 
 
+
+//post vs pre won't affect loop if the increment is a simple expression
 for (let i=3;i< 6;i++){
     console.log(`Loop 1 i: ${i}`)
-}
+} //3,4,5
 for (let i=3;i<6;++i){
     console.log(`Loop 2 i: ${i}`)
-}
+} //3,4,5
