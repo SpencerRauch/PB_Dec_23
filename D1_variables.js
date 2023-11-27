@@ -34,7 +34,7 @@ var myDecimal = 7.11;
 var mySum = myNum + myDecimal; //14.11
 
 // console.log(stringTwo + mySum)
-console.log(mySum + stringTwo)
+// console.log(mySum + stringTwo)
 
 //boolean true or false!
 var bool = true;
@@ -44,8 +44,25 @@ var boolTwo = false;
 //undefined means it has not yet been defined
 
 var x;
-console.log(x)
+// console.log(x)
 
 // null means nothing
 
 var username = null;
+
+
+//prefix vs postfix ++
+var i = 1;
+console.log(i++) // console logs 1, then increases i to 2
+console.log(i) // log 2
+
+var x = 1;
+console.log(++x)
+
+
+for (let i = 3;i< 6;i++){
+    console.log(`Loop 1 i: ${i}`)
+}
+for (let i=3;i<6;++i){
+    console.log(`Loop 2 i: ${i}`)
+}
