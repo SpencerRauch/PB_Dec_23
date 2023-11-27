@@ -60,7 +60,7 @@ var x = 1;
 console.log(++x)
 
 
-for (let i = 3;i< 6;i++){
+for (let i=3;i< 6;i++){
     console.log(`Loop 1 i: ${i}`)
 }
 for (let i=3;i<6;++i){
