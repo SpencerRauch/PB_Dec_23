@@ -14,6 +14,7 @@ auntsContact[1] = 'Doe'
 
 //adding and removing from arrays
 // pop and push both operate at the end of the array
+//push adds
 accountBalances.push(1000000)
 
 //pop will return the element it removes
