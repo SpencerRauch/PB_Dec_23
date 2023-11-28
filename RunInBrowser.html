@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Hello this is my JS test page!</h1>
+    <script>
+        //your code here!
+        var produceList = ["apples", "oranges", "jalapenos"];
+        //Array 2
+        var accountBalances = [5000, 10, 2500];
+        //Array 3
+        //arrays are zero indexed collections of elements
+        //                    0          1            2               3            4      5
+        var auntsContact = ["Jayne", "Smithe", "123 Main Street", "Springfield", "MO", 12345];
+
+        //get count for auntsContact
+        console.log(auntsContact.length);
+        //use subscript syntax to access or reassign individual elements
+        console.log(auntsContact[4]);
+        auntsContact[1] = 'Doe';
+
+        //adding and removing from arrays
+        // pop and push both operate at the end of the array
+        //push adds
+        accountBalances.push(1000000);
+
+        //pop will return the element it removes
+        var tooSpicy = produceList.pop();
+        console.log(tooSpicy);
+
+        function jamesFunction() {
+            var x = 5;
+            x = x * 250;
+            console.log(x);
+            return "Apple sauce";
+        }
+        var storedResult = jamesFunction()
+
+    </script>
+</body>
+
+</html>
