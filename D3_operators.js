@@ -41,7 +41,7 @@ console.log(Math.round(num4))
 console.log("\n");
 
 //trunc
-console.log("******trunc*******") //trunc cuts off at .5 
+console.log("******trunc*******") //trunc cuts off the decimal regardless of position on number line
 console.log(Math.trunc(num1))
 console.log(Math.trunc(num2))
 console.log(Math.trunc(num3))
