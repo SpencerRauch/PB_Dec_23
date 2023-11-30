@@ -22,6 +22,14 @@ function feedTheMonster(food){
         caloriesConsumed += food.pop();
         snacksEaten++;
         //Your additions should go here <--------
+        //goal 1:
+        // if (caloriesConsumed >= 1000){
+        //     break;
+        // }
+        //goal 2
+        if (caloriesConsumed >= 1000 || snacksEaten >= 3){
+            break;
+        }
     }
     var msg = "The monster ate ";
     msg += snacksEaten;
